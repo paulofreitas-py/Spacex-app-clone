@@ -1,0 +1,40 @@
+@keyframes arrow-animation {
+    from {
+        opacity: 0;
+        bottom: 40px;
+    }
+    to {
+        opacity: 1;
+        bottom: 30px;
+    }
+  }
+
+@keyframes section1-MoveUp-animation {
+    from {
+        opacity: 0;
+        bottom: -10px;
+    }
+    to {
+        opacity: 1;
+        bottom: 15px;
+    }
+  }
+
+  @keyframes opacity-animation {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+  }
+
+  @keyframes menu-animation {
+     from {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    to { opacity: 1 }
+  }
+
+

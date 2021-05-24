@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'd-din-regular';
+    src: url(../fonts/d-din.regular.ttf);
+}
+
+@font-face {
+    font-family: 'd-din-bold';
+    src: url(../fonts/d-din.bold.ttf);
+    font-weight: bold;
+}
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+body, h1, h2, h3, h4, h5, h6 {
+    font-family: 'd-din-bold';
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    color: #fff;
+    width: 100%;
+}
+
+h1 {
+    position: relative;
+    font-family: 'd-din-bold';
+    font-size: 48px;
+    line-height: 48px;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing:  -1;
+    color: #ffffff;
+    margin: auto;
+    text-align: left;
+}
+
+h2 {
+    font-size: 20px;
+    line-height: 38px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: normal;
+    text-align: left;
+}
+
+h4 {
+    font: 20px/38px D-DIN-Medium,Arial,Verdana,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2, h3, h4 {
+    color: #fff;
+    position: relative;
+    margin: auto;
+}
+
+p {
+    font-weight: 400;
+    font-family: 'd-din-regular';
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: normal;
+    text-align: left;
+    line-height: 26px;
+    margin: 15px 0;
+    margin-top: 20px;
+}
+
+a:active, a:link, a:visited {
+    color: #fff;
+    text-decoration: none;
+} 
